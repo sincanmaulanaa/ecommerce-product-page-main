@@ -89,25 +89,25 @@ document
 
 document.getElementById("product1").addEventListener("click", function () {
   const heroImage = document.getElementById("heroImage");
-  heroImage.setAttribute("src", "assets/images/image-product-1.jpg");
+  heroImage.setAttribute("src", "public/assets/images/image-product-1.jpg");
   heroImage.classList.add("mySlides");
 });
 
 document.getElementById("product2").addEventListener("click", function () {
   const heroImage = document.getElementById("heroImage");
-  heroImage.setAttribute("src", "assets/images/image-product-2.jpg");
+  heroImage.setAttribute("src", "public/assets/images/image-product-2.jpg");
   heroImage.classList.add("mySlides");
 });
 
 document.getElementById("product3").addEventListener("click", function () {
   const heroImage = document.getElementById("heroImage");
-  heroImage.setAttribute("src", "assets/images/image-product-3.jpg");
+  heroImage.setAttribute("src", "public/assets/images/image-product-3.jpg");
   heroImage.classList.add("mySlides");
 });
 
 document.getElementById("product4").addEventListener("click", function () {
   const heroImage = document.getElementById("heroImage");
-  heroImage.setAttribute("src", "assets/images/image-product-4.jpg");
+  heroImage.setAttribute("src", "public/assets/images/image-product-4.jpg");
   heroImage.classList.add("mySlides");
 });
 
@@ -125,20 +125,32 @@ document.getElementById("heroImage").addEventListener("click", function () {
 
 document.getElementById("product1Modal").addEventListener("click", function () {
   const heroImageModal = document.getElementById("heroImageModal");
-  heroImageModal.setAttribute("src", "assets/images/image-product-1.jpg");
+  heroImageModal.setAttribute(
+    "src",
+    "public/assets/images/image-product-1.jpg"
+  );
 });
 
 document.getElementById("product2Modal").addEventListener("click", function () {
   const heroImageModal = document.getElementById("heroImageModal");
-  heroImageModal.setAttribute("src", "assets/images/image-product-2.jpg");
+  heroImageModal.setAttribute(
+    "src",
+    "public/assets/images/image-product-2.jpg"
+  );
 });
 
 document.getElementById("product3Modal").addEventListener("click", function () {
   const heroImageModal = document.getElementById("heroImageModal");
-  heroImageModal.setAttribute("src", "assets/images/image-product-3.jpg");
+  heroImageModal.setAttribute(
+    "src",
+    "public/assets/images/image-product-3.jpg"
+  );
 });
 
 document.getElementById("product4Modal").addEventListener("click", function () {
   const heroImageModal = document.getElementById("heroImageModal");
-  heroImageModal.setAttribute("src", "assets/images/image-product-4.jpg");
+  heroImageModal.setAttribute(
+    "src",
+    "public/assets/images/image-product-4.jpg"
+  );
 });
